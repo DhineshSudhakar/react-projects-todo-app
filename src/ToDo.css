@@ -1,0 +1,25 @@
+.list{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.list p input{
+    border: none;
+    background-color: #0B3142;
+    padding: 10px;
+    color: lightgrey;
+    border-radius: 5px;
+    
+}
+
+.list p input:focus{
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.list p{
+    display: inline-block;
+}
